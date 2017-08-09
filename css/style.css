@@ -1,19 +1,19 @@
 /*
-   
+
     Template Name : DevBlog - Personal Blog Template
     Author : UiPasta Team
     Website : http://www.uipasta.com/
     Support : http://www.uipasta.com/support/
-	
-	
+
+
 */
 
 
 
 /*
-   
+
    Table Of Content
-   
+
    1. Global Style
    2. Preloader
    3. Menu
@@ -41,7 +41,7 @@
   25. Responsive
   26. Useful Classes ( Such as : Margin, Padding, colors  "This classes will be helpful for you during designing/development time.")
   27. UiPasta Credit
- 
+
 
 */
 
@@ -54,7 +54,7 @@ body {
     font-family: "Poppins", sans-serif;
     background: #fafafa !important;
 }
-	
+
 html {
     position: relative;
     min-height: 100%;
@@ -318,7 +318,7 @@ button {
 
 
 
-/* About Me (Left Sidebar) */	
+/* About Me (Left Sidebar) */
 
 .about-fixed {
     position: fixed;
@@ -791,7 +791,7 @@ blockquote {
     padding: 25px;
     box-shadow: -2px -1px 88px 0px rgba(0,0,0,0.17);
    -webkit-box-shadow: -2px -1px 88px 0px rgba(0,0,0,0.17);
-    
+
 }
 
 .endpage-box h4 {
@@ -865,7 +865,7 @@ blockquote {
     border: 1px dashed #1abc9c;
     font-weight: 400;
 }
-	
+
 
 
 
@@ -1010,7 +1010,6 @@ blockquote {
 /* Footer */
 
 .footer {
-    background: url(../images/bg/pattern-bg.png);
     background-repeat: repeat;
     text-align: center;
     padding: 30px 0;
@@ -1179,40 +1178,40 @@ blockquote {
 
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-	
+
     #menu .menu-link li {
        margin: 2px 3px;
     }
-	
+
     .my-detail h1 {
        font-size: 18px;
        font-weight: 600;
     }
-	
+
     .my-detail span {
        font-size: 15px;
        line-height: 29px;
     }
-	
+
     .social-icon li a {
        width: 30px;
        height: 30px;
        line-height: 33px;
        font-size: 13px;
     }
-	
+
     .social-icon li {
        margin: 2px 2px;
     }
-	
+
     .post-quote {
        width: 90%;
     }
-	
+
     .subscribe-form .text-input {
        font-size: 14px;
     }
-	
+
     .subscribe-form .submit-btn {
        font-size: 14px;
        width: 100px;
@@ -1221,12 +1220,12 @@ blockquote {
 
 
 @media only screen and (max-width: 991px) {
-	
+
     .about-fixed {
        position: inherit;
        width: auto;
     }
-	
+
     .post-quote {
        width: 90%;
     }
@@ -1235,11 +1234,11 @@ blockquote {
 
 
 @media only screen and (max-width: 767px) {
-     
+
     .video-tutorial {
        width: 100%;
     }
-	
+
     .custom-pad-1 {
        padding-right: 15px;
     }
@@ -1251,11 +1250,11 @@ blockquote {
 
 
 @media only screen and (max-width: 570px) {
-	
+
     .subscribe-form .text-input {
        font-size: 12px;
     }
-	
+
     .subscribe-form .submit-btn {
        font-size: 13px;
        width: 90px;
@@ -1264,11 +1263,11 @@ blockquote {
 
 
 @media only screen and (max-width:479px) {
-	
+
     #main {
        margin: 15px 0;
      }
-	
+
     .sub-title {
        border-bottom: 1px dashed #cccccc;
        padding: 30px;
@@ -1280,21 +1279,21 @@ blockquote {
 
 
 @media only screen and (max-width:435px) {
-	
+
     b {
        font-weight: 500;
     }
-	
+
     .my-detail h1 {
        font-size: 18px;
        font-weight: 600;
     }
-	
+
     .my-detail span {
        font-size: 15px;
        line-height: 29px;
     }
-	
+
     .blog-post .post-title h1 {
        font-size: 22px;
        line-height: 32px;
@@ -1318,7 +1317,7 @@ blockquote {
        line-height: 28px;
        font-weight: 400;
     }
-	
+
     .sub-title h2 {
        font-size: 20px;
        font-weight: 600;
@@ -1328,97 +1327,97 @@ blockquote {
        font-size: 25px;
        margin-top: 15px;
     }
-	
+
     .blog-post .post-image p {
        font-size: 12px;
     }
-	
+
     .video-box {
        width: 100%;
     }
-	
+
     .video-tutorial .video-popup:after {
        font-size: 30px;
     }
-	
+
     .video-tutorial:hover .video-popup:after {
        font-size: 45px;
     }
-	
+
     .video-box p {
        font-size: 12px;
        line-height: 24px;
     }
-	
+
     .post-quote {
        width: 100%;
     }
-	
+
     .post-quote blockquote {
        padding: 40px 15px;
     }
-	
+
     .list li {
        font-size: 14px;
     }
-	
+
     .about-author .picture {
        float: none;
     }
-	
+
     .about-author .c-padding {
        padding: 30px 0px;
     }
-	
+
     .you-may-also-like h3 {
        font-size: 18px;
        line-height: 28px;
     }
-	
+
     .comment h3 {
        font-size: 18px;
        line-height: 28px;
     }
-	
+
     .social-icon li a {
        width: 30px;
        height: 30px;
        line-height: 32px;
        font-size: 14px;
     }
-	
+
     .load-more-button {
        width: 70px;
        height: 70px;
        line-height: 70px;
        font-size: 12px;
     }
-	
+
     .end {
        width: 70px;
        height: 70px;
        line-height: 70px;
        font-size: 12px;
     }
-	
+
     .button {
        font-size: 13px;
        padding: 10px 0px;
        font-weight: 500;
     }
-	
+
     .button-style:before {
        display: none;
     }
-	
+
     #mc-form {
        padding: 50px 0px;
     }
-	
+
     .subscribe-form .text-input {
        font-size: 11px;
     }
-	
+
     .subscribe-form .submit-btn {
        font-size: 12px;
        width: 80px;
@@ -1426,11 +1425,11 @@ blockquote {
        padding: 12px;
        margin-bottom: 5px;
     }
-	
+
     footer .menu-link a {
        margin: 4px 3px;
     }
-	
+
     .scroll-to-top {
        font-size: 25px;
     }
