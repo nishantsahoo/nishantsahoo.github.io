@@ -1,19 +1,19 @@
 /*
-   
+
     Template Name : DevBlog - Personal Blog Template
     Author : UiPasta Team
     Website : http://www.uipasta.com/
     Support : http://www.uipasta.com/support/
-	
-	
+
+
 */
 
 
 
 /*
-   
+
    Table Of Content
-   
+
    1. Preloader
    2. Smooth Scroll
    3. Scroll To Top
@@ -26,7 +26,7 @@
   10. Load More Post
   11. Load More Portfolio
   12. End Box (Popup When Scroll Down)
- 
+
 
 */
 
@@ -36,15 +36,15 @@
 
     jQuery(document).ready(function () {
 
-        
+
        /* Preloader */
-		
+
         $(window).load(function () {
             $('.preloader').delay(800).fadeOut('slow');
          });
-		 		
-		
-		
+
+
+
        /* Smooth Scroll */
 
         $('a.smoth-scroll').on("click", function (e) {
@@ -54,12 +54,12 @@
             }, 1000);
             e.preventDefault();
         });
-				 
-		
-		
-		
+
+
+
+
        /* Scroll To Top */
-		
+
         $(window).scroll(function(){
         if ($(this).scrollTop() >= 500) {
             $('.scroll-to-top').fadeIn();
@@ -67,36 +67,36 @@
             $('.scroll-to-top').fadeOut();
          }
          });
-	
-	
+
+
         $('.scroll-to-top').click(function(){
           $('html, body').animate({scrollTop : 0},800);
           return false;
           });
-		  
-		  
-		  
+
+
+
        /* Tooltip */
-	   
+
         $('[data-toggle="tooltip"]').tooltip();
 
 
 
        /* Popover */
-	   
-        $('[data-toggle="popover"]').popover();		  
-		  
-		  
-	   
+
+        $('[data-toggle="popover"]').popover();
+
+
+
        /* Ajaxchimp for Subscribe Form */
-		
+
         $('#mc-form').ajaxChimp();
-		
-		
-		
-       
+
+
+
+
        /* Video and Google Map Popup */
-		 
+
         $('.video-popup').magnificPopup({
           disableOn: 700,
           type: 'iframe',
@@ -104,22 +104,22 @@
           preloader: false,
           fixedContentPos: false
           });
-		  
 
 
-       
-       
+
+
+
        /* Magnific Popup */
 
         $('.image-popup').magnificPopup({
             type: 'image',
-			
+
             gallery: { enabled: true },
 			zoom: { enabled: true,
 			        duration: 500
-					
+
           },
-		  
+
          image:{
                markup: '<div class="mfp-figure portfolio-pop-up">'+
                '<div class="mfp-close"></div>'+
@@ -134,15 +134,15 @@
                 return item.el.attr('title');
               }
             }
-		  
-		  
+
+
           });
-		  
-		
-		
-       
+
+
+
+
        /* Image Carousel/Slider */
-			
+
         $(".image-carousel").owlCarousel({
             items: 1,
             autoPlay: true,
@@ -159,12 +159,12 @@
             loop: true,
             transitionStyle : "fadeUp"
             });
-	   
-	   
-	   
-       /* Load More Post */	
-	   	
-        $("div.blog-post").slice(0, 4).show();
+
+
+
+       /* Load More Post */
+
+        $("div.blog-post").slice(0, 50).show();
           $("#load-more-post").on('click', function (e) {
              e.preventDefault();
              $("div.blog-post:hidden").slice(0, 1).slideDown(300);
@@ -173,12 +173,12 @@
              $("#load-more-post").fadeOut(100);
               }
              });
-			 
 
 
-       /* Load More Portfolio */	
-	   	
-        $("div.portfolio").slice(0, 2).show();
+
+       /* Load More Portfolio */
+
+        $("div.portfolio").slice(0, 50).show();
           $("#load-more-portfolio").on('click', function (e) {
              e.preventDefault();
              $("div.portfolio:hidden").slice(0, 1).slideDown(300);
@@ -187,19 +187,19 @@
              $("#load-more-portfolio").fadeOut(100);
               }
              });
-			 
-		
-		
-		
+
+
+
+
        /* End Box (Popup When Scroll Down) */
-	   
+
         $("#scroll-down-popup").endpage_box({
            animation: "flyInLeft",
            from: "70%",
            to: "100%"
           });
-              
-		   
+
+
             });
 
    })(jQuery);
