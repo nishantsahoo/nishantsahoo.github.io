@@ -38,9 +38,9 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background: #A770EF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -602,7 +602,7 @@ div.blog-post {
 
 .blog-post .post-title h1 {
     color: #333333;
-    font-size: 35px;
+    font-size: 1.5em;
     line-height: 45px;
     font-weight: 700;
     margin-top: 24px;
@@ -624,7 +624,7 @@ div.blog-post {
 }
 
 .blog-post p {
-    font-size: 16px;
+    font-size: 1em;
     line-height: 30px;
     color: #696868;
     font-weight: 300;
