@@ -1,46 +1,8 @@
-/*
-
-   Table Of Content
-
-   1. Global Style
-   2. Preloader
-   3. Menu
-   4. About Me (Left Sidebar)
-   5. About Me Page
-   6. My Portfolio
-   7. Owl Carousel Navigation
-   8. Contact Me
-   9. Testimonials
-  10. Blog Post & Single Blog Page
-  11. Video Tutorials
-  12. Blockquote
-  13. List
-  14. Image Popup
-  15. End Box (Popup When Scroll Down)
-  16. About Author Box
-  17. You May Also Like
-  18. Comment
-  19. Load More Button
-  20. Subscribe Form
-  21. Footer
-  22. Socials Icons
-  23. Syntax Highlighter
-  24. Scroll To Top
-  25. Responsive
-  26. Useful Classes ( Such as : Margin, Padding, colors  "This classes will be helpful for you during designing/development time.")
-  27. UiPasta Credit
-*/
-
-
-
-/* Global Style */
-
-
 body {
     font-family: "Poppins", sans-serif;
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #53346D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #53346D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
