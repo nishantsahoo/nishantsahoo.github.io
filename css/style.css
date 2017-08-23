@@ -958,6 +958,21 @@ blockquote {
 
 /* Footer */
 
+.footerEnd {
+    background-repeat: repeat;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 10px;
+}
+
+.footerEnd p {
+    color: #797878;
+    font-size: 13px;
+    line-height: 25px;
+    padding: 0px 15px;
+    letter-spacing: 1px;
+}
+
 .footer {
     background-repeat: repeat;
     text-align: center;
